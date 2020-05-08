@@ -1,0 +1,24 @@
+---
+title: "index.Rmd"
+author: "Ryan Langford"
+date: "5/7/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+source("analysis.R")
+```
+
+## Lecture 11 Exercise
+
+For this exercise, I made a vector of 100 numbers between `r min` and `r max`.
+The sum of all the numbers was `r sum`, and the average was `r avg`. Here is a plot
+of all 100 numbers.
+
+```{r, echo=FALSE}
+plot(rnd_nums)
+```

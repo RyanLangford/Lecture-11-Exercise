@@ -1,0 +1,5 @@
+rnd_nums <- sample(1:100, 100)
+sum <- sum(rnd_nums)
+avg <- mean(rnd_nums)
+min <- min(rnd_nums)
+max <- max(rnd_nums)
